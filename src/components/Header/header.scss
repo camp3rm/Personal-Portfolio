@@ -1,0 +1,140 @@
+.header {
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	background-color: brown;
+	height: 50px;
+
+
+	& .header-logo {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: flex-start;
+		align-self: center;
+		margin-left: 10px;
+	}
+
+	& .navigation {
+		display: none;
+	}
+
+	& .toggle-menu {
+		margin-right: 10px;
+		justify-self: end;
+		align-self: center;
+		height: 35px;
+		width: 35px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+
+		& .toggle-menu_line {
+			display: block;
+			width: 20px;
+			height: 2px;
+			background-color: #fff;
+			margin: 2.5px 0px;
+		}
+
+		& .toggle-menu_line:nth-child(2) {
+			width: 10px;
+			height: 2px;
+			align-self: flex-end;
+			margin-right: 7.5px;
+			transition: all 0.5s ease;
+		}
+
+		&:hover {
+			.toggle-menu_line:nth-child(2) {
+				transform: translateX(-10px);
+				transition: all 0.5s ease;
+			}
+		}
+	}
+
+	.burger-menu-list {
+		position: absolute;
+		z-index: 100;
+		width: 100vw;
+		height: 100dvh;
+		top: 0px;
+		left: 0px;
+		background-color: rgb(17, 20, 22);
+
+
+		.burger-menu_list {
+			height: 100%;
+			display: grid;
+			grid-template-rows: repeat(4, 50px);
+			align-content: center;
+			justify-items: center;
+
+			& .burger-menu_list_item {
+				width: 60%;
+				height: 50px;
+				margin: 10px;
+				display: block;
+				text-align: center;
+				border-bottom: 2px solid rgb(122, 114, 114);
+
+				&:hover {
+					background-color: rgb(122, 114, 114);
+				}
+
+				& .item_link {
+					color: rgb(196, 186, 186);
+					text-decoration: none;
+					display: block;
+					height: 100%;
+					line-height: 50px;
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+	.header {
+		display: grid;
+		grid-template-columns: 130px 3fr;
+		place-content: center;
+
+		& .navigation {
+			display: block;
+
+			& .nav-menu {
+				display: flex;
+				height: 100%;
+
+				& .nav-list {
+					width: 100%;
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					place-items: center;
+
+					& .nav-list_item {
+						list-style: none;
+
+						& .nav-list_link {
+							text-decoration: none;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		& .toggle-menu {
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {}
