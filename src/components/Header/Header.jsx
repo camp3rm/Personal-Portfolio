@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './header.scss';
 import logoSmall from '@assets/images/logo/logo-35.png';
+import logoMedium from '@assets/images/logo/logo-48.png';
+import logoLarge from '@assets/images/logo/logo-96.png';
 
 export const Header = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
@@ -10,7 +12,13 @@ export const Header = () => {
 	}
 	return (
 		<header className='header'>
-			<div className='header-logo'><img src={logoSmall} alt='Portfolio Logo' /></div>
+			<div className='header-logo'>
+				<picture>
+					<source srcSet={logoLarge} media='(min-width: 992px)' />
+					<source srcSet={logoMedium} media='(min-width: 768px)' />
+					<img src={logoSmall} alt='logo' />
+				</picture>
+			</div>
 			<div className='navigation'>
 				<nav className='nav-menu'>
 					<ul className='nav-list'>
