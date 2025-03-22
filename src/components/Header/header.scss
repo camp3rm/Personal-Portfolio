@@ -6,7 +6,7 @@
 	padding: 0;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	background-color: rgb(22, 21, 21);
+	background-color: rgb(21, 20, 21);
 
 
 	& .header-logo {
@@ -22,11 +22,11 @@
 		display: none;
 
 		& .nav-list_item {
-			scale: 0.8;
 			transition: all 0.3s ease;
 
 			&:hover {
-				scale: 1.1;
+
+				transform: scale(1.1);
 			}
 		}
 	}
@@ -134,7 +134,7 @@
 						& .nav-list_link {
 							text-decoration: none;
 							color: #fff;
-							font-size: 17px;
+							font-size: 16px;
 						}
 					}
 				}
@@ -174,7 +174,7 @@
 						& .nav-list_link {
 							text-decoration: none;
 							color: #fff;
-							font-size: 19px;
+							font-size: 18px;
 							font-weight: 600;
 						}
 					}
