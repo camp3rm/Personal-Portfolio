@@ -1,12 +1,12 @@
 .header {
 	position: relative;
+	height: 50px;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	background-color: brown;
-	height: 50px;
 
 
 	& .header-logo {
@@ -91,7 +91,7 @@
 					color: rgb(196, 186, 186);
 					text-decoration: none;
 					display: block;
-					height: 100%;
+					font-size: 16px;
 					line-height: 50px;
 					font-weight: 600;
 				}
@@ -125,16 +125,133 @@
 						& .nav-list_link {
 							text-decoration: none;
 							color: #fff;
+							font-size: 16px;
 						}
 					}
 				}
 			}
 		}
 
-		& .toggle-menu {
+		& .toggle-menu,
+		& .burger-menu-list {
 			display: none;
 		}
 	}
 }
 
-@media (min-width: 768px) and (max-width: 991.99px) {}
+@media (min-width: 768px) and (max-width: 991.99px) {
+	.header {
+		height: 75px;
+		display: grid;
+		grid-template-columns: 130px 3fr;
+		place-content: center;
+
+		& .navigation {
+			display: block;
+
+			& .nav-menu {
+				display: flex;
+				height: 100%;
+
+				& .nav-list {
+					width: 100%;
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					place-items: center;
+
+					& .nav-list_item {
+						list-style: none;
+
+						& .nav-list_link {
+							text-decoration: none;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		& .toggle-menu,
+		& .burger-menu-list {
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+	.header {
+		height: 100px;
+		display: grid;
+		grid-template-columns: 130px 3fr;
+		place-content: center;
+
+		& .navigation {
+			display: block;
+
+			& .nav-menu {
+				display: flex;
+				height: 100%;
+
+				& .nav-list {
+					width: 100%;
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					place-items: center;
+
+					& .nav-list_item {
+						list-style: none;
+
+						& .nav-list_link {
+							text-decoration: none;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		& .toggle-menu,
+		& .burger-menu-list {
+			display: none;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.header {
+		height: 100px;
+		display: grid;
+		grid-template-columns: 130px 3fr;
+		place-content: center;
+
+		& .navigation {
+			display: block;
+
+			& .nav-menu {
+				display: flex;
+				height: 100%;
+
+				& .nav-list {
+					width: 100%;
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					place-items: center;
+
+					& .nav-list_item {
+						list-style: none;
+
+						& .nav-list_link {
+							text-decoration: none;
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+
+		& .toggle-menu,
+		& .burger-menu-list {
+			display: none;
+		}
+	}
+}
