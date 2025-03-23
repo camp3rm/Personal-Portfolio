@@ -5,7 +5,7 @@ import './index.css';
 import { Layout } from './components/Layout/Layout';
 import { Header } from './components/Header/Header';
 // import { Main } from './components/Main/Main';
-// import { Footer } from './components/Footer/Footer';
+import { Footer } from './components/Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +13,7 @@ root.render(
     <Layout>
       <Header />
       {/* <Main /> */}
-      {/* <Footer /> */}
+      <Footer />
     </Layout>
   </React.StrictMode>
 );
