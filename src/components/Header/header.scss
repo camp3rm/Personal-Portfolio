@@ -41,6 +41,7 @@
 		justify-content: center;
 		align-items: center;
 		cursor: pointer;
+		z-index: 101;
 
 		& .toggle-menu_line {
 			display: block;
@@ -58,12 +59,12 @@
 			transition: all 0.5s ease;
 		}
 
-		&:hover {
-			.toggle-menu_line:nth-child(2) {
-				transform: translateX(-10px);
-				transition: all 0.5s ease;
-			}
-		}
+		// &:hover {
+		// 	.toggle-menu_line:nth-child(2) {
+		// 		transform: translateX(-10px);
+		// 		transition: all 0.5s ease;
+		// 	}
+		// }
 	}
 
 	.burger-menu-list {
