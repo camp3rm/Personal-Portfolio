@@ -10,7 +10,7 @@ export const Hero = () => {
 				</div>
 			</div>
 			<section className='hero-description'>
-				<h1 className='hero-description_title'>Hello, I'm Oleh Bortniak,<br /> <span className='proffesion-name'>Junior Frontend Developer</span></h1>
+				<h1 className='hero-description_title'>Hello, I'm Oleh Bortniak,<br /> <span className='profession-name'>Junior Frontend Developer</span></h1>
 				<p className='hero-description_text'>
 					I am a Junior Frontend Developer passionate about creating intuitive and creative web applications and websites.
 					I have experience working with HTML, CSS/SCSS, JavaScript, React, and other modern technologies. My goal is to apply my skills to solve real-world problems and develop products that bring value to users. I always strive to write clean and optimized code, work effectively in a team, and continuously learn to improve my skills.
