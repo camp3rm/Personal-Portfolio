@@ -1,7 +1,10 @@
 import React from 'react';
 import './hero.scss';
+import { ToolsIcons } from '@assets/skills-section/index.jsx';
 
 export const Hero = () => {
+	console.log(ToolsIcons);
+
 	return (
 		<div className='hero-container'>
 			<div className='hero-photo_outside'>
@@ -17,29 +20,29 @@ export const Hero = () => {
 				</p>
 				<a className='hero-description_link' href='@assets/CV_Oleh_Bortniak.pdf' download="CV_Oleh_Bortniak.pdf" >Download CV</a>
 			</section>
-			<section className='skills_tools'>
+			<section className='skills'>
 				<h2 className='skills_tools_title'>Skills and Tools</h2>
 				<div className='front-end_skills_container'>
 					<h3 className='front-end_skills_title'>Front-End Development Skills</h3>
 					<div className='front-end_card_list'>
-						<div className='front-end_card_item'>
-							<image className='front-end_card_item_img' src="/" alt='' />
+						<div className='card_item-html'>
+							<img className='front-end_card_item_icon' src={ToolsIcons.html50} alt='HTML5' />
 							<h3 className='front-end_card_item_title'>HTML5</h3>
 						</div>
-						<div className='front-end_card_item'>
-							<image className='front-end_card_item_img' src="/" alt='' />
+						<div className='card_item-css'>
+							<img className='front-end_card_item_icon' src={ToolsIcons.css50} alt='CSS3' />
 							<h3 className='front-end_card_item_title'>CSS3</h3>
 						</div>
-						<div className='front-end_card_item'>
-							<image className='front-end_card_item_img' src="/" alt='' />
+						<div className='card_item-js'>
+							<img className='front-end_card_item_icon' src={ToolsIcons.js50} alt='JavaScript' />
 							<h3 className='front-end_card_item_title'>JavaScript</h3>
 						</div>
-						<div className='front-end_card_item'>
-							<image className='front-end_card_item_img' src="/" alt='' />
+						<div className='card_item-react'>
+							<img className='front-end_card_item_icon' src={ToolsIcons.react50} alt='React' />
 							<h3 className='front-end_card_item_title'>React</h3>
 						</div>
-						<div className='front-end_card_item'>
-							<image className='front-end_card_item_img' src="/" alt='' />
+						<div className='card_item-scss'>
+							<img className='front-end_card_item_icon' src={ToolsIcons.scss50} alt='SCSS' />
 							<h3 className='front-end_card_item_title'>SCSS</h3>
 						</div>
 					</div>
@@ -47,23 +50,23 @@ export const Hero = () => {
 				<div className='tools_skills_container'>
 					<h3 className='tools_skills_title'>Tools & Technologies</h3>
 					<div className='tools_card_list'>
-						<div className='tools_card_item'>
+						<div className='tools_card__item_github'>
 							<image className='tools_card_item_img' src="/" alt='' />
 							<h3 className='tools_card_item_title'>GitHub</h3>
 						</div>
-						<div className='tools_card_item'>
-							<image className='tools_card_item_img' src="/" alt='' />
+						<div className='tools_card_item_git'>
+							<image className='tools_card' src="/" alt='' />
 							<h3 className='tools_card_item_title'>Git</h3>
 						</div>
-						<div className='tools_card_item'>
+						<div className='tools_card_item_vscode'>
 							<image className='tools_card_item_img' src="/" alt='' />
 							<h3 className='tools_card_item_title'>VS Code</h3>
 						</div>
-						<div className='tools_card_item'>
+						<div className='tools_card_item_jira'>
 							<image className='tools_card_item_img' src="/" alt='' />
 							<h3 className='tools_card_item_title'>Jira</h3>
 						</div>
-						<div className='tools_card_item'>
+						<div className='tools_card_item_figma'>
 							<image className='tools_card_item_img' src="/" alt='' />
 							<h3 className='tools_card_item_title'>Figma</h3>
 						</div>
