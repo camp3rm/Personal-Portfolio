@@ -25,7 +25,7 @@ export const Header = () => {
 						<li className='nav-list_item'><a className='nav-list_link' href='/'>About me</a></li>
 						<li className='nav-list_item'><a className='nav-list_link' href='/'>Skills $ Tools</a></li>
 						<li className='nav-list_item'><a className='nav-list_link' href='/'>Projects</a></li>
-						<li className='nav-list_item'><a className='nav-list_link' href='/'>Education</a></li>
+						<li className='nav-list_item'><a className='nav-list_link' href='/'>Contacts</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -39,7 +39,7 @@ export const Header = () => {
 					<li className='burger-menu_list_item'><a className='item_link' href='/'>About me</a></li>
 					<li className='burger-menu_list_item'><a className='item_link' href='/'>Skills $ Tools</a></li>
 					<li className='burger-menu_list_item'><a className='item_link' href='/'>Projects</a></li>
-					<li className='burger-menu_list_item'><a className='item_link' href='/'>Education</a></li>
+					<li className='burger-menu_list_item'><a className='item_link' href='/'>Contacts</a></li>
 				</ul>
 			</div>}
 		</header>
