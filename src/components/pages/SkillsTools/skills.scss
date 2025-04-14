@@ -59,8 +59,7 @@
 					align-items: center;
 					margin: 10px auto;
 
-					& .hard_skills_card_item_icon,
-
+					& .hard_skills_card_item_image,
 					& .hard_skills_card_item_subtitle,
 					& .tools_card_item_subtitle {
 						font-size: 18px;
@@ -140,6 +139,7 @@
 					& .soft_skills_list_item {
 						list-style-image: url('./list-marker12.png');
 						font-size: 16px;
+						line-height: 1.2;
 						padding: 5px;
 						margin: 5px;
 					}

@@ -1,10 +1,10 @@
 const importAll = (r) => {
-	const toolsIcons = {};
+	const toolsImages = {};
 	r.keys().forEach((key) => {
-		const iconName = key.replace('./', '').replace(/\.\w+$/, '');
-		toolsIcons[iconName] = r(key);
+		const imageName = key.replace('./', '').replace(/\.\w+$/, '');
+		toolsImages[imageName] = r(key);
 	});
-	return toolsIcons;
+	return toolsImages;
 };
 
-export const ToolsIcons = importAll(require.context('../skills-section', false, /\.(png|jpe?g|svg)$/));
+export const ToolsImages = importAll(require.context('../skills-section', false, /\.(png|jpe?g|svg)$/));

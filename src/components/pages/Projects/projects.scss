@@ -1,8 +1,14 @@
 .projects-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	// grid-gap: 16px;
 
-	& .h2 {
+	& h2 {
 		font-size: 2.5rem;
 		margin: 0 auto;
 		text-align: center;
 	}
+
+	& .body_mass_index {}
 }
