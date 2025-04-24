@@ -1,5 +1,5 @@
-import bmiCalculator from './bmi-calculator.png';
-import ecoCabins from './eco-cabins.png';
-import weatherApp from './weather-app.png';
+import bmiCalculator from './bmi-calculator-m.png'
+import weatherApp from './weather-app-m.png';
+import ecoCabins from './ecoCabins-m.png'
 
-export const imagesData = [bmiCalculator, ecoCabins, weatherApp];
+export const imagesArray = [bmiCalculator, weatherApp, ecoCabins ]; 

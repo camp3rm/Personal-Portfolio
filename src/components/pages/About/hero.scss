@@ -47,6 +47,8 @@
 			margin: 25px 15px;
 			color: rgb(139, 131, 131);
 			text-wrap: balance;
+			-webkit-hyphens: auto;
+			hyphens: auto;
 		}
 
 		& .hero-description_link {

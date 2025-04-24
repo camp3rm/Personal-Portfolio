@@ -1,0 +1,95 @@
+<Card>
+  <CardHeader>
+    <h3 className="text-xl font-bold">BMI Calculator</h3>
+    <p className="text-sm text-muted">
+      A web application that allows users to calculate their Body Mass Index (BMI) based on their weight and height.
+      It helps assess the weight category according to the WHO classification.
+    </p>
+  </CardHeader>
+  <CardContent className="space-y-2">
+    <p><strong>Tech stack:</strong> React, react-hook-form, react-i18next, CSS, JavaScript</p>
+    <p><strong>Features:</strong></p>
+    <ul className="list-disc list-inside ml-4">
+      <li>Real-time BMI calculation</li>
+      <li>Weight category feedback (underweight, normal, overweight, etc.)</li>
+      <li>Form validation with react-hook-form</li>
+      <li>Multilingual support using react-i18next</li>
+      <li>Responsive and clean UI</li>
+    </ul>
+    <p><strong>Role:</strong> Full development from scratch</p>
+    <div className="flex gap-4">
+      <a href="https://github.com/your-username/bmi-calculator" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+        GitHub
+      </a>
+      <a href="https://bmi-calculator.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+        Live Demo
+      </a>
+    </div>
+  </CardContent>
+</Card>
+
+<Card>
+  <CardHeader>
+    <h3 className="text-xl font-bold">Weather App</h3>
+    <p className="text-sm text-muted">
+      A web application that displays current weather conditions and forecasts (daily and hourly).
+      It automatically fetches weather based on user geolocation or allows searching by city name.
+    </p>
+  </CardHeader>
+  <CardContent className="space-y-2">
+    <p><strong>Tech stack:</strong> React, JavaScript (ES6+), SCSS Modules, Axios, OpenWeatherMap API, Browser Geolocation API, React Context API</p>
+    <p><strong>Features:</strong></p>
+    <ul className="list-disc list-inside ml-4">
+      <li><strong>Auto location weather:</strong> Uses browser geolocation to show local weather on load</li>
+      <li><strong>City search:</strong> Lets users search for weather by city name</li>
+      <li><strong>Detailed weather data:</strong> "Feels like", UV index, wind speed/direction, sunrise/sunset, humidity, visibility, pressure</li>
+      <li><strong>Visual indicators:</strong> Weather icons and readable labels for UV, wind, clouds, humidity, etc.</li>
+      <li><strong>Forecast toggling:</strong> Switch between daily and hourly forecasts easily</li>
+      <li><strong>Horizontal scroll:</strong> Sleek scrollable hourly forecast UI</li>
+      <li><strong>Centralized state:</strong> WeatherProvider (React Context) for global state & logic handling</li>
+      <li><strong>Modular structure:</strong> Well-structured, reusable components</li>
+      <li><strong>Helper utilities:</strong> Encapsulated logic (WeatherUtils.jsx) for coordinates, city name, date/time formatting</li>
+      <li><strong>Path aliases:</strong> Custom aliases (via config-overrides.js) like <code>@components</code>, <code>@utils</code> for cleaner imports</li>
+    </ul>
+    <p><strong>Role:</strong> Full development from scratch</p>
+    <div className="flex gap-4">
+      <a href="https://github.com/your-username/weather-app" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+        GitHub
+      </a>
+      <a href="https://weather-app.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+        Live Demo
+      </a>
+    </div>
+  </CardContent>
+</Card>
+
+<Card>
+  <CardHeader>
+    <h3 className="text-xl font-bold">EcoCabins Landing Page</h3>
+    <p className="text-sm text-muted">
+      A static website built for the "EcoCabins" company, showcasing sustainable modular homes.  
+      The project informs visitors about the advantages, materials, and key features of the cabins.
+    </p>
+  </CardHeader>
+  <CardContent className="space-y-2">
+    <p><strong>Tech stack:</strong> HTML5, CSS3 (BEM methodology), JavaScript, SwiperJS</p>
+    <p><strong>Features:</strong></p>
+    <ul className="list-disc list-inside ml-4">
+      <li><strong>Clean semantic structure:</strong> Semantic HTML layout with <code>header</code>, <code>main</code>, <code>section</code>, <code>footer</code>, and <code>nav</code></li>
+      <li><strong>Image slider:</strong> SwiperJS integration for showcasing building materials and visuals</li>
+      <li><strong>BEM naming convention:</strong> Consistent and maintainable class structure (block__element--modifier)</li>
+      <li><strong>Responsive layout:</strong> Use of <code>viewport</code> meta tag and layout containers suggests mobile-friendly design</li>
+      <li><strong>Content-focused design:</strong> Layout and styling optimized to present product benefits clearly and attractively</li>
+    </ul>
+    <p><strong>Role:</strong> Full development (HTML/CSS/JS) from scratch</p>
+    <div className="flex gap-4">
+      <a href="https://github.com/your-username/ecocabins-landing" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+        GitHub
+      </a>
+      <a href="https://ecocabins.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">
+        Live Demo
+      </a>
+    </div>
+  </CardContent>
+</Card>
+
