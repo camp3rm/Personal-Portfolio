@@ -15,7 +15,7 @@ root.render(
       <Main />
       <Footer />
     </Layout>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
 
 reportWebVitals();

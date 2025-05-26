@@ -1,75 +1,71 @@
 .hero-container {
+  & .hero-photo_outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    min-height: 250px;
+    position: relative;
 
-	& .hero-photo_outside {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		min-width: 250px;
-		min-height: 250px;
-		position: relative;
+    & .hero-photo_inside {
+      border-radius: 50%;
+      border: 2px solid #1e3a8a;
+      padding: 10px;
 
-		& .hero-photo_inside {
-			border-radius: 50%;
-			border: 2px solid #1E3A8A;
-			padding: 10px;
+      & .hero-photo_img {
+        border: 2px solid #8e9e02;
+        border-radius: 50%;
+        display: block;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        padding: 10px;
+      }
+    }
+  }
 
-			& .hero-photo_img {
-				border: 2px solid #8e9e02;
-				border-radius: 50%;
-				display: block;
-				width: 250px;
-				height: 250px;
-				object-fit: cover;
-				padding: 10px;
-			}
-		}
-	}
+  & .hero-description {
+    margin: 50px 0 25px;
+    line-height: 1.2;
 
+    & .hero-description_title {
+      font-size: 28px;
+      margin: 0 15px;
+      text-align: center;
+      color: rgb(196, 186, 186);
 
-	& .hero-description {
-		margin: 50px 0 25px;
-		line-height: 1.2;
+      & .profession-name {
+        color: #2648a7;
+        font-weight: 600;
+      }
+    }
 
-		& .hero-description_title {
-			font-size: 28px;
-			margin: 0 15px;
-			text-align: center;
-			color: rgb(196, 186, 186);
+    & .hero-description_text {
+      display: inline-block;
+      margin: 25px 15px;
+      color: rgb(139, 131, 131);
+      text-wrap: balance;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+    }
 
-			& .profession-name {
-				color: #2648a7;
-				font-weight: 600;
-			}
-		}
+    & .hero-description_link {
+      width: 150px;
+      display: inline-block;
+      background-color: #6978d1;
+      margin: 25px 15px;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 25px;
+      box-shadow: 0 0 25px #6978d1;
+      transform: scale(1);
+      transition: all 0.2s ease;
 
-		& .hero-description_text {
-			display: inline-block;
-			margin: 25px 15px;
-			color: rgb(139, 131, 131);
-			text-wrap: balance;
-			-webkit-hyphens: auto;
-			hyphens: auto;
-		}
-
-		& .hero-description_link {
-			width: 150px;
-			display: inline-block;
-			background-color: #6978D1;
-			margin: 25px 15px;
-			padding: 10px 15px;
-			text-align: center;
-			text-decoration: none;
-			border-radius: 25px;
-			box-shadow: 0 0 25px #6978D1;
-			transform: scale(1);
-			transition: all 0.2s ease;
-
-			&:hover {
-				transform: scale(1.1);
-				transition: all 0.2s ease;
-			}
-
-		}
-	}
-
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+      }
+    }
+  }
 }

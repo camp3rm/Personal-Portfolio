@@ -1,55 +1,55 @@
 .footer {
-	height: 50px;
-	background-color: rgb(21, 20, 21);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  height: 50px;
+  background-color: rgb(21, 20, 21);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-	& .copyright {
-		& span {
-			font-size: 10px;
-			color: rgb(196, 186, 186);
-		}
-	}
+  & .copyright {
+    & span {
+      font-size: 10px;
+      color: rgb(196, 186, 186);
+    }
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-	.footer {
-		& .copyright {
-			& span {
-				font-size: 12px;
-			}
-		}
-	}
+  .footer {
+    & .copyright {
+      & span {
+        font-size: 12px;
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-	.footer {
-		& .copyright {
-			& span {
-				font-size: 14px;
-			}
-		}
-	}
+  .footer {
+    & .copyright {
+      & span {
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-	.footer {
-		& .copyright {
-			& span {
-				font-size: 16px;
-			}
-		}
-	}
+  .footer {
+    & .copyright {
+      & span {
+        font-size: 16px;
+      }
+    }
+  }
 }
 
 @media (min-width: 1200px) {
-	.footer {
-		& .copyright {
-			& span {
-				font-size: 18px;
-			}
-		}
-	}
+  .footer {
+    & .copyright {
+      & span {
+        font-size: 18px;
+      }
+    }
+  }
 }

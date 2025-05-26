@@ -1,11 +1,6 @@
 import React from 'react';
-import './layout.scss'
+import './layout.scss';
 
 export const Layout = ({ children }) => {
-
-	return (
-		<div className='wrapper'>
-			{children}
-		</div>
-	);
+  return <div className='wrapper'>{children}</div>;
 };
