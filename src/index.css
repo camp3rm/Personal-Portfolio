@@ -17,10 +17,11 @@ body {
   min-width: 20rem;
   line-height: 1;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
