@@ -4,7 +4,7 @@ import AboutMe from '@components/pages/About/AboutMe.png';
 
 export const Hero = () => {
   return (
-    <div className='hero-container'>
+    <div id='hero' className='hero-container'>
       <div className='hero-photo_outside'>
         <div className='hero-photo_inside'>
           <img className='hero-photo_img' src={AboutMe} alt='' />

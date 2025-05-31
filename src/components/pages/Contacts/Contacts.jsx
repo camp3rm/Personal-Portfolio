@@ -4,7 +4,7 @@ import { contactsImagesArray } from '@assets/contacts-section/index.jsx';
 
 export const Contacts = () => {
   return (
-    <div className='contacts_container'>
+    <div id='contacts' className='contacts_container'>
       <h2 className='contacts_title'>Contacts me</h2>
       <p className='contacts_quote'>
         <span>Constantly</span> seeking challenges that help me grow <span>as</span> a developer.
