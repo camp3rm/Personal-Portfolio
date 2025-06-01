@@ -128,6 +128,7 @@
 
         & .soft-skills_list {
           & .soft-skills_list_item {
+            width: max-content;
             list-style-image: url('./list-marker12.png');
             line-height: 1.2;
             padding: 5px;
@@ -138,7 +139,7 @@
       }
     }
   }
-  @media (min-width: 480px) and (max-width: 767.99px) {
+  @media (min-width: 480px ) and (max-width: 767.99px) {
     & .skills-title {font-size: 22px;}
     & .hard-skills_title,
     & .tools-skills_title,

@@ -1,5 +1,12 @@
-import linkedIn from './linkedin.png';
-import gitHub from './github.png';
-import email from './email.png';
+const importAll = (r) => {
+  const contactsImages = {};
+  r.keys().forEach((key) => {
+    const imageName = key.replace('./', '').replace(/\.\w+$/, '');
+    contactsImages[imageName] = r(key);
+  });
+  return contactsImages;
+};
 
-export const contactsImagesArray = [linkedIn, gitHub, email];
+export const ContactsImages = importAll(
+  require.context('../contacts-section', false, /\.(png|jpe?g|svg)$/),
+);

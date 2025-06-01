@@ -23,10 +23,20 @@ export const Projects = () => {
           </p>
         </div>
         <div className='check-preview_section'>
-          <a href='/' className='preview-link'>
+          <a
+            href='https://fastbmi-checker.netlify.app/'
+            className='preview-link'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Preview
           </a>
-          <a href='/' className='check-link'>
+          <a
+            href='https://github.com/camp3rm/Body-Mass-Index-version-2.0'
+            className='check-link'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Check on Github
           </a>
         </div>
@@ -50,10 +60,20 @@ export const Projects = () => {
         </div>
 
         <div className='check-preview_section'>
-          <a href='/' className='preview-link'>
+          <a
+            href='https://meteorix.netlify.app/'
+            className='preview-link'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Preview
           </a>
-          <a href='/' className='check-link'>
+          <a
+            href='https://github.com/camp3rm/WeatherWise'
+            className='check-link'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Check on Github
           </a>
         </div>
@@ -75,7 +95,12 @@ export const Projects = () => {
           </p>
         </div>
         <div className='check-preview_section'>
-          <a href='/' className='check-link'>
+          <a
+            href='https://github.com/camp3rm/ecoCabins'
+            className='check-link'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Check on Github
           </a>
         </div>

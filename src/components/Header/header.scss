@@ -23,6 +23,7 @@
 
     & .nav-list_item {
       transition: all 0.3s ease;
+      cursor: pointer;
       & .nav-list_link {
         font-size: 14px;
       }

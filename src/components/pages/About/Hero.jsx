@@ -25,8 +25,8 @@ export const Hero = () => {
         </p>
         <a
           className='hero-description_link'
-          href='@assets/CV_Oleh_Bortniak.pdf'
-          download='CV_Oleh_Bortniak.pdf'
+          href='@assets/Junior-FrontEnd-React-Developer.pdf'
+          download='Junior-FrontEnd-React-Developer.pdf'
         >
           Download CV
         </a>
