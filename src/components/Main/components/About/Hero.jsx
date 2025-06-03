@@ -1,6 +1,6 @@
 import React from 'react';
 import './hero.scss';
-import AboutMe from '@components/pages/About/AboutMe.png';
+import AboutMe from './AboutMe.png';
 
 export const Hero = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import './main.scss';
-import { Hero } from '@components/pages/About/Hero';
-import { SkillsTools } from '@components/pages/SkillsTools/SkillsTools';
-import { Projects } from '@components/pages/Projects/Projects';
-import { Contacts } from '@components/pages/Contacts/Contacts';
+import { Hero } from './components/About/Hero';
+import { SkillsTools } from './components/SkillsTools/SkillsTools';
+import { Projects } from './components/Projects/Projects';
+import { Contacts } from './components/Contacts/Contacts';
 
 export const Main = () => {
   return (
