@@ -31,4 +31,7 @@ This is a personal portfolio website built with React to showcase my projects, s
 3. Start the development server:
    ```
    yarn start
+4. Or follow the link:
+   ```bash
+   Source `https://o-dev.netlify.app/`
    ```
