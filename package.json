@@ -1,5 +1,7 @@
 {
-  "name": "personal-portfolio",
+  "name": "Personal-Portfolio",
+  "description": "A personal portfolio website built with React to showcase projects and skills.",
+  "author": "Oleh Bortniak",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
