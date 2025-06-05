@@ -20,9 +20,9 @@ This is a personal portfolio website built with React to showcase my projects, s
 
 ## Getting Started
 
-1. Clone the repository::
+1. Clone the repository:
    ```bash
-   Source `https://github.com/camp3rm/Personal-Portfolio	`
+   Source `https://github.com/camp3rm/Personal-Portfolio`
    ```
 2. Install dependencies:
    ```
